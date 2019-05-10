@@ -2,24 +2,32 @@
 	"name": "open-in-new-instance",
 	"displayName": "Open in new Instance",
 	"description": "This extension allows you to open a folder from the VSCode Explorer in a new Instance of VSCode from the context menu.",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
-		"vscode": "^1.33.0"
+		"vscode": "^1.25.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.openInNewInstance"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
-		]
+		"commands": [{
+			"command": "extension.openInNewInstance",
+			"title": "Open in new Instance"
+		}],
+		"menus": {
+			"commandPalette": [{
+				"command": "extension.openInNewInstance",
+				"when": "false"
+			}],
+			"explorer/context": [{
+				"command": "extension.openInNewInstance",
+				"when": "explorerResourceIsFolder"
+			}]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
