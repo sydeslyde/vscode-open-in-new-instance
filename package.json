@@ -25,7 +25,8 @@
 			}],
 			"explorer/context": [{
 				"command": "extension.openInNewInstance",
-				"when": "explorerResourceIsFolder"
+				"when": "explorerResourceIsFolder",
+				"group": "2_workspace"
 			}]
 		}
 	},
