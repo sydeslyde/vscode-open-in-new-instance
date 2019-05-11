@@ -2,6 +2,12 @@
 	"name": "open-in-new-instance",
 	"displayName": "Open in new Instance",
 	"description": "This extension allows you to open a folder from the VSCode Explorer in a new Instance of VSCode from the context menu.",
+	"publisher": "sydeslyde",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sydeslyde/vscode-open-in-new-instance.git"
+	},
+	"homepage": "https://github.com/sydeslyde/vscode-open-in-new-instance/blob/master/README.md",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.25.0"
