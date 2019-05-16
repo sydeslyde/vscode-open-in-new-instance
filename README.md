@@ -7,3 +7,10 @@ This extension allows you to open a folder from the VSCode Explorer in a new Ins
 ## Installation
 
 Easily install this Extension by typing `ext install sydeslyde.open-in-new-instance` and pressing enter in the command bar.
+
+## Lanuage Support
+
+As of now, following languages are supported via the Visual Studio Codes Display Language setting:
+
+- English (fallback)
+- German
