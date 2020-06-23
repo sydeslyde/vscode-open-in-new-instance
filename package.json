@@ -10,7 +10,7 @@
 	"homepage": "https://github.com/sydeslyde/vscode-open-in-new-instance/blob/master/README.md",
 	"version": "1.1.0",
 	"engines": {
-		"vscode": "^1.25.0"
+		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
