@@ -8,7 +8,7 @@
 		"url": "https://github.com/sydeslyde/vscode-open-in-new-instance.git"
 	},
 	"homepage": "https://github.com/sydeslyde/vscode-open-in-new-instance/blob/master/README.md",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
