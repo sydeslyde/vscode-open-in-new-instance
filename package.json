@@ -10,7 +10,7 @@
 	"homepage": "https://github.com/sydeslyde/vscode-open-in-new-instance/blob/master/README.md",
 	"version": "1.1.0",
 	"engines": {
-		"vscode": "^1.25.0"
+		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
@@ -20,6 +20,16 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"configuration": {
+			"title": "%extension.configuration.title%",
+			"properties": {
+				"openInNewInstance.alsoShowForFiles": {
+					"type": "boolean",
+					"default": false,
+					"description": "%extension.configuration.alsoShowForFiles.description%"
+				}
+			}
+		},
 		"commands": [
 			{
 				"command": "extension.openInNewInstance",
@@ -36,7 +46,7 @@
 			"explorer/context": [
 				{
 					"command": "extension.openInNewInstance",
-					"when": "explorerResourceIsFolder",
+					"when": "explorerResourceIsFolder || config.openInNewInstance.alsoShowForFiles",
 					"group": "2_workspace"
 				}
 			]

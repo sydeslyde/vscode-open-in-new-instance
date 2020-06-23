@@ -1,3 +1,5 @@
 {
-    "extension.openInNewInstance.label": "Open in new Instance"
+    "extension.openInNewInstance.label": "Open in new Instance",
+    "extension.configuration.title": "Open in new Instance",
+    "extension.configuration.alsoShowForFiles.description": "Also show the Context Menu Entry for files"
 }

@@ -1,3 +1,5 @@
 {
-	"extension.openInNewInstance.label": "In neuer Instanz öffnen"
+	"extension.openInNewInstance.label": "In neuer Instanz öffnen",
+	"extension.configuration.title": "In neuer Instanz öffnen",
+	"extension.configuration.alsoShowForFiles.description": "Zeige den Kontext Menü Eintrag auch für Dateien"
 }
